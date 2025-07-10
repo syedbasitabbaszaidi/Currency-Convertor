@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Pontano+Sans:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 209, 215);
+}
+main{
+    width: 40vw;
+    min-height: 60vh;
+    background-color: rgb(234, 227, 227);
+    border-radius: 14px;
+    padding: 28px;
+}
+.heading{
+    text-align: center;
+}
+.input{
+    margin: 12px 0px;
+}
+form input,.dropdown,button{
+    width: 100%;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+}
+.input input{
+    padding: 12px;
+    border: 1px solid rgb(154, 148, 148);
+    font-size: 15px;
+}
+.answer input{
+    padding: 12px;
+    border: 1px solid rgb(154, 148, 148);
+    font-size: 15px;   
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.select-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid rgb(154, 148, 148);
+    border-radius: 10px;
+    width: 100px;
+}
+.select-container img{
+    width: 30px;
+}
+.select-container select{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.result{
+    margin: 30px 0px;
+}
+button{
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+button:hover{
+    transform: scale(1.07);
+    background-color: rgb(25, 195, 25);
+}
